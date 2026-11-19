@@ -1,0 +1,29 @@
+SOLVE YAPI - ANDROID (.APK) VE GOOGLE PLAY STORE (.AAB) DERLEME REHBERİ
+=========================================================================
+
+Bu pakette Google Play Store kurallarına (targetSdk 35, AndroidX, resmi Solve Yapı ikon setleri,
+fotoğraf/video seçici, WhatsApp/Telefon çağrı desteği ve canlı v8 HTTPS+WebSocket iletişimi)
+%100 uyumlu 2 ayrı hazır Android projesi yer alır:
+
+1. SolveYapi_Musteri_Android  (Paket Adı: com.solveyapi.musteri)
+2. SolveYapi_Yonetici_Android (Paket Adı: com.solveyapi.yonetici)
+
+-------------------------------------------------------------------------
+YÖNTEM 1: BİLGİSAYARA HİÇ PROGRAM KURMADAN 3 DAKİKADA .APK & .AAB ALMAK (ÖNERİLEN)
+-------------------------------------------------------------------------
+1. Ücretsiz bir GitHub.com hesabı açın ve yeni bir depo (Repository) oluşturun.
+2. Bu ZIP içindeki tüm klasörleri (`.github` klasörü dahil) depoya yükleyin.
+3. Üst menüden "Actions" sekmesine tıklayın; GitHub otomatik olarak hem
+   `SolveYapi-Musteri-APK-AAB` hem de `SolveYapi-Yonetici-APK-AAB` dosyalarını derleyip
+   indirme linki olarak sunar.
+4. İndirdiğiniz `.apk` dosyasını WhatsApp'tan müşterilerinize atıp doğrudan telefonlarına
+   kurdurabilirsiniz.
+
+-------------------------------------------------------------------------
+YÖNTEM 2: ANDROID STUDIO İLE İMZALI GOOGLE PLAY (.AAB) ÇIKTISI ALMAK
+-------------------------------------------------------------------------
+1. Android Studio'da `SolveYapi_Musteri_Android` (veya `SolveYapi_Yonetici_Android`) klasörünü açın.
+2. Üst menüden: Build -> Generate Signed App Bundle or APK seçin.
+3. Telefonlara doğrudan kurulum için "APK", Google Play Store'a yüklemek için
+   "Android App Bundle (.aab)" seçip kendi imza anahtarınızla (Keystore) oluşturun.
+4. Oluşan `.aab` dosyasını Google Play Console (play.google.com/console) hesabınıza yükleyin.

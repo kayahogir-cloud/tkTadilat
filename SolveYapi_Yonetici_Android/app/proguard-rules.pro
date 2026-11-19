@@ -1,0 +1,1 @@
+# Solve Yapi ProGuard Rules
